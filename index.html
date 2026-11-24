@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore product management with the Product Management Club at Illinois Tech.">
+  <title>Product Management Club | Illinois Tech</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="PMC home">PMC</a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#events">Events</a>
+      <a href="#join">Join</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <p class="eyebrow">Illinois Institute of Technology</p>
+        <h1 id="hero-title">Product Management Club at Illinois Tech</h1>
+        <p class="hero-copy">Curious about how great products come to life? Find your people, explore ideas, and build something together.</p>
+        <a class="button button-light" href="#events">View events</a>
+      </div>
+      <div class="hero-mark" aria-hidden="true">P<span>M</span>C</div>
+    </section>
+
+    <section class="section about-section" id="about" aria-labelledby="about-title">
+      <div class="section-heading">
+        <p class="eyebrow">Get to know us</p>
+        <h2 id="about-title">Ideas become better together.</h2>
+      </div>
+      <p class="section-copy">PMC is a place for students to explore product management and learn how teams turn problems into useful products. Share your ideas, hear different perspectives, and learn by building together. No experience required—just curiosity and a willingness to try.</p>
+    </section>
+
+    <section class="section events-section" id="events" aria-labelledby="events-title">
+      <div class="section-heading">
+        <p class="eyebrow">Learn by doing</p>
+        <h2 id="events-title">Events</h2>
+      </div>
+      <article class="event-card">
+        <div class="event-accent" aria-hidden="true">&lt;/&gt;</div>
+        <div class="event-details">
+          <p class="event-label">Hands-on workshop</p>
+          <h3>Git &amp; GitHub Workshop</h3>
+          <p>Get comfortable with the basics of version control. Create a branch, commit a change, merge it, and publish a website with GitHub Pages.</p>
+          <p class="event-time">Date and location to be announced.</p>
+          <button class="button button-red" id="topics-toggle" type="button" aria-expanded="false" aria-controls="workshop-topics">See workshop topics</button>
+          <ul class="topic-list" id="workshop-topics" hidden>
+            <li>Make a branch for your change</li>
+            <li>Commit and merge your work</li>
+            <li>Publish your site with GitHub Pages</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <section class="join-section" id="join" aria-labelledby="join-title">
+      <div>
+        <p class="eyebrow">Your next idea starts here</p>
+        <h2 id="join-title">There’s a place for you at PMC.</h2>
+        <p>Students from all majors and backgrounds are invited to participate. Bring a question, an idea, or simply your curiosity.</p>
+      </div>
+      <div class="signup-note">
+        <!-- Add the club's signup link here when it is available. -->
+        <span class="signup-status">Signup link coming soon.</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="footer-brand" href="#home">PMC</a>
+    <p>Product Management Club at Illinois Tech</p>
+    <a href="#home" class="back-to-top">Back to top ↑</a>
+  </footer>
+</body>
+</html>
